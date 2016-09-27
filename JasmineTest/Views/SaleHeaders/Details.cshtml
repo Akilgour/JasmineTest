@@ -1,0 +1,43 @@
+﻿@model JasmineTest.Models.SaleHeader
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SaleHeader</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerFirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerFirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerSecondName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerSecondName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SaleHeaderId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

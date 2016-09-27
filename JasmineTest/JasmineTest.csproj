@@ -198,6 +198,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SaleHeadersController.cs" />
+    <Compile Include="Controllers\SaleItemsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -276,6 +278,16 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\SaleHeaders\Create.cshtml" />
+    <Content Include="Views\SaleHeaders\Delete.cshtml" />
+    <Content Include="Views\SaleHeaders\Details.cshtml" />
+    <Content Include="Views\SaleHeaders\Edit.cshtml" />
+    <Content Include="Views\SaleHeaders\Index.cshtml" />
+    <Content Include="Views\SaleItems\Create.cshtml" />
+    <Content Include="Views\SaleItems\Delete.cshtml" />
+    <Content Include="Views\SaleItems\Details.cshtml" />
+    <Content Include="Views\SaleItems\Edit.cshtml" />
+    <Content Include="Views\SaleItems\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
