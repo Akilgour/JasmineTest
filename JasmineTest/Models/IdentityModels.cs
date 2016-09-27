@@ -29,5 +29,9 @@ namespace JasmineTest.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<SaleHeader> SaleHeaders { get; set; }
+
+        public DbSet<SaleItem> SaleItems { get; set; }
     }
 }
